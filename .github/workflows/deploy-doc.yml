@@ -28,7 +28,7 @@ jobs:
         pip install pdoc
     - name: Make documentation
       run: |
-        pdoc .\calculator\ -o .\docs
+        pdoc ./calculator -o ./docs
     - name: Setup Pages
       uses: actions/configure-pages@v5
     - name: Upload artifact
